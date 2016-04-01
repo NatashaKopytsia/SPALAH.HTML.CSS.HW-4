@@ -1,0 +1,126 @@
+html {
+    background: #ccc;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.phone {
+    padding: 20px;
+    background-color: #000000;
+    border-bottom: 10px solid #CDC9C9;  
+}
+
+.number_phone {
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.number_phone ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.number_phone li {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+  li:first-child{
+    color:  #8B8682;
+    font-size:12px;
+    vertical-align:text-bottom;
+    padding-right: 0px;
+ }
+
+.phone_call{
+	float: right;
+    padding-bottom: 5px;
+}
+
+.phone_call a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+.application {
+    padding: 20px;
+}
+.logo {
+    float: left;
+    padding: 20px;
+   
+}
+.application_nav a{
+    float: right;
+    color:  #FF0000;
+    text-decoration: none;
+}
+
+.section_box{
+    display: inline-block;
+    width: 27%;
+    vertical-align: top;
+    margin-left: 3%;
+     position: relative;
+    }
+
+.images img{
+
+    width: 300px;
+
+}
+
+.banner img {
+    width: 200px;
+}
+
+.section_box{
+    position: relative;
+}
+.section_box_images img {
+    display: block;
+}
+.banner img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.banner_h {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-bottom: 0px;
+}
+
+
+.clear {
+    clear: both;
+}
+   
+
+}
+
+
