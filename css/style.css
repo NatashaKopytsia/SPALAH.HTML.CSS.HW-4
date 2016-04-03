@@ -42,6 +42,9 @@ body {
     padding-right: 10px;
     margin-bottom: 10px;
 }
+.number_phone li a{
+    color: #FFFFFF;
+}
 
  .number_phone li:first-child{
     color: #8B8682;
