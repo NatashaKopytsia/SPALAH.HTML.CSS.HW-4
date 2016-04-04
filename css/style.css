@@ -82,7 +82,7 @@ hr {
 }
 
 .section_box{
-   margin: 0;
+    margin: 0;
     position: relative;
     display: inline-block;
     vertical-align: bottom; 
@@ -90,7 +90,6 @@ hr {
     line-height: 0;
     width: 297px;
     box-sizing: border-box;
-    
 }
 
 .images img{
@@ -102,8 +101,8 @@ hr {
     width: 50%;
     height: 30px;
     float: left;
-    bottom: 0;
-    margin: 0;
+    bottom: -1px;
+  
     box-sizing: border-box;
     color: #FFFFFF;
     vertical-align: bottom;
@@ -135,21 +134,14 @@ hr {
     font-size: 15px;
 }
 
-
-
-
-
 .section_box_line{
-    border-bottom: 10px solid #00C3C9; 
+    border-bottom: 10px solid #00C3C9;
 }
 
 .clear {
     clear: both;
-}*/
+}
 
-
-
-   
 .page_section{
     padding: 20px;
 
